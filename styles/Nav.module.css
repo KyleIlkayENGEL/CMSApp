@@ -1,0 +1,44 @@
+.nav {
+  width: 100%;
+  /* font-family: "Josefin Sans"; */
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 55px */
+
+  align-items: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #03110e;
+  background-color: #f0f0f0;
+
+  display: flex;
+}
+
+.menuItem {
+  padding: 52px 25px;
+}
+
+.menuCenterItem {
+  padding: 52px 25px 45px;
+  background-color: white;
+  margin: 0 50px;
+}
+
+.menuCenterItem .sup {
+  font-weight: 100;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.menuCenterItem .secondLine {
+  font-size: 6px;
+  line-height: 6px;
+}
+
+.firstLine,
+.secondLine {
+  text-align: center;
+}
